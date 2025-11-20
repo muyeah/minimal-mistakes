@@ -15,14 +15,14 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "zh-TW"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Site Title"
+title                    : "李慕約（Muyueh Lee）"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+subtitle                 : "生成式 AI 年會策展人與企業顧問"
+name                     : "李慕約（Muyueh Lee）"
+description              : "生成式 AI 年會（GAIConf）策展人、李慕約有限公司負責人，專注企業 AI 導入顧問、客製化系統與課程。"
+url                      : https://muyueh.com
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -31,8 +31,8 @@ masthead_title           : # overrides the website title displayed in the masthe
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
 enable_copy_code_button  : # true, false (default)
-copyright                : # "copyright" name, defaults to site.title
-copyright_url            : # "copyright" URL, defaults to site.url
+copyright                : "李慕約有限公司"
+copyright_url            : https://muyueh.com
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
@@ -99,9 +99,14 @@ og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : "李慕約（Muyueh Lee）"
+  links:
+    - "https://gaiconf.com/"
+    - "https://live.gaiconf.com/plans/muyuehai365"
+    - "https://www.youtube.com/@leemuyueh"
+    - "https://www.facebook.com/muyueh.l/"
+    - "https://tw.linkedin.com/in/muyueh"
 
 # Analytics
 analytics:
@@ -113,53 +118,53 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "李慕約（Muyueh Lee）"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "生成式 AI 年會（GAIConf）策展人與共同主辦者；李慕約有限公司負責人，提供企業 AI 導入、客製化系統與課程。"
+  location         : "臺北"
   email            :
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
+    - label: "官網"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+      url: "https://muyueh.com/"
+    - label: "GAIConf"
+      icon: "fas fa-fw fa-calendar-alt"
+      url: "https://gaiconf.com/"
+    - label: "365 AI 訂閱"
+      icon: "fas fa-fw fa-rocket"
+      url: "https://live.gaiconf.com/plans/muyuehai365"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/@leemuyueh"
     - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      icon: "fab fa-fw fa-facebook"
+      url: "https://www.facebook.com/muyueh.l/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://tw.linkedin.com/in/muyueh"
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
+    - label: "GAIConf 官網"
+      icon: "fas fa-fw fa-calendar-check"
+      url: "https://gaiconf.com/"
+    - label: "李慕約有限公司"
+      icon: "fas fa-fw fa-building"
+      url: "https://muyueh.com/"
+    - label: "365 AI 訂閱"
+      icon: "fas fa-fw fa-rocket"
+      url: "https://live.gaiconf.com/plans/muyuehai365"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/@leemuyueh"
     - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
-  since: "2013"
+      icon: "fab fa-fw fa-facebook"
+      url: "https://www.facebook.com/muyueh.l/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://tw.linkedin.com/in/muyueh"
+  since: "2014"
 
 
 # Reading Files
@@ -229,7 +234,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Taipei # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Pagination with jekyll-paginate
