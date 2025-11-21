@@ -10,3 +10,5 @@ main:
     url: /services/
   - title: "365 AI 訂閱"
     url: /subscription/
+  - title: "相簿"
+    url: /albums/
